@@ -45,10 +45,14 @@ Logic symbol & Truthtable
 RTL realization
 
 ### Output:
-### RTL
-### TIMING DIAGRAM
-
-
+### RTL :
+![half_adder_RTL_diagram](/half_adder.png)
+![Full_adder_RTL_Diagram](/full%20add.png)
+### TIMING DIAGRAM :
+![half_adder_timing_diagram](/half_adder%20waveform.png)
+![Full_adder_timing_diagram](/full_adder%20wave.png)
 ### TRUTH TABLE 
 
 ### Result:
+Thus the output of half_adder and full_adder experiment 
+successfully achieved.
