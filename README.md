@@ -36,14 +36,19 @@ Switch ON the main switch
 If the output is 1, then the led glows.
 ### 
 Program:
-/*
-Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
-Logic symbol & Truthtable
-RTL realization
 
+~~~py
+module full_adder(x,y,z,s,c);
+input x,y,z;
+output s,c;
+wire x1,x3,x4;
+xor(x1,x,y);
+xor(s,x1,z);
+and(x3,x,y);
+and(x4,x,y);
+or(c,x3,x4);
+endmodule
+~~~
 ### Output:
 ### RTL :
 ![half_adder_RTL_diagram](/half_adder.png)
