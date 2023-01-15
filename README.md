@@ -36,7 +36,14 @@ Switch ON the main switch
 If the output is 1, then the led glows.
 ### 
 Program:
-
+~~~py
+module half_adder(a,b,sum,carry);
+input a,b;
+output sum,carry;
+xor(sum,a,b);
+and(carry,a,b);
+endmodule
+~~~
 ~~~py
 module full_adder(x,y,z,s,c);
 input x,y,z;
