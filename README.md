@@ -64,6 +64,10 @@ endmodule
 ![half_adder_timing_diagram](/half_adder%20waveform.png)
 ![Full_adder_timing_diagram](/full_adder%20wave.png)
 ### TRUTH TABLE 
+![half_adder_truthtable](https://user-images.githubusercontent.com/114286357/214351684-f220b25f-84fc-4646-bb47-8312a14f6248.png)
+
+# Full ADDER
+![full_adder_truthtable](https://user-images.githubusercontent.com/114286357/214351422-173d7ba9-9200-4553-8d83-434b5915ad4d.png)
 
 ### Result:
 Thus the output of half_adder and full_adder experiment 
